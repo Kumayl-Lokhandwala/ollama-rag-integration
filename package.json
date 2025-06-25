@@ -1,0 +1,21 @@
+{
+  "name": "ollama-rag-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node rag.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@llm-tools/embedjs": "^0.1.29",
+    "@llm-tools/embedjs-ollama": "^0.1.29",
+    "@llm-tools/embedjs-loader-web": "^0.1.29",
+    "@llm-tools/embedjs-hnswlib": "^0.1.28",
+    "@llm-tools/embedjs-loader-pdf": "^0.1.29"
+  }
+}
