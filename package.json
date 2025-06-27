@@ -4,18 +4,30 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node rag.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumayl-Lokhandwala/ollama-rag-integration.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kumayl-Lokhandwala/ollama-rag-integration/issues"
+  },
+  "homepage": "https://github.com/Kumayl-Lokhandwala/ollama-rag-integration#readme",
   "dependencies": {
-    "@llm-tools/embedjs": "^0.1.29",
-    "@llm-tools/embedjs-ollama": "^0.1.29",
-    "@llm-tools/embedjs-loader-web": "^0.1.29",
-    "@llm-tools/embedjs-hnswlib": "^0.1.28",
-    "@llm-tools/embedjs-loader-pdf": "^0.1.29"
+    "@langchain/community": "^0.3.47",
+    "@langchain/core": "^0.3.61",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.3.29",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-parser": "^1.0.5",
+    "pdf-text-extract": "^1.5.0",
+    "pdfjs-dist": "^5.3.31",
+    "pdfreader": "^3.0.7"
   }
 }
