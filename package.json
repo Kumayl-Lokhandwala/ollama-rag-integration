@@ -21,7 +21,9 @@
   "dependencies": {
     "@langchain/community": "^0.3.47",
     "@langchain/core": "^0.3.61",
+    "@langchain/ollama": "^0.2.3",
     "faiss-node": "^0.5.1",
+    "gpt-tokenizer": "^3.0.1",
     "langchain": "^0.3.29",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
